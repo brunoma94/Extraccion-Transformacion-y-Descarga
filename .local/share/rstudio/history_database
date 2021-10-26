@@ -3,3 +3,22 @@
 1634928200329:import pandas as pd
 1634928243243:df_hipotecas = pd.read_csv('~/data/hipotecas/hipotecas_lectura')
 1634928258655:df_hipotecas.head()
+1635264309391:path_to_file <- "../data/ejemplos_lectura.xlsx"
+1635264315007:df_ejemplos <- read_xlsx(path_to_file)
+1635264334724:pwd
+1635264454543:path_to_file <- "/data/ejemplos_lectura.xlsx"
+1635264455521:df_ejemplos <- read_xlsx(path_to_file)
+1635264463891:path_to_file <- "data/ejemplos_lectura.xlsx"
+1635264464741:df_ejemplos <- read_xlsx(path_to_file)
+1635264559178:path_to_file <- "~/data/ejemplos_lectura.xlsx"
+1635264560001:df_ejemplos <- read_xlsx(path_to_file)
+1635264608059:path_to_file <- "data/ejemplos_lectura.xlsx"
+1635264612232:library(readxl)
+1635264615191:df_ejemplos <- read_xlsx(path_to_file)
+1635264618887:df_ejemplos
+1635264923043:# Para leer regiones
+1635264923046:df_fechas <- read_xlsx(path_to_file,
+1635264923048:sheet = "Fechas",
+1635264923052:skip = 2,
+1635264923056:col_types = c(rep("skip", 3), rep("guess", 5)))
+1635264929152:df_fechas
