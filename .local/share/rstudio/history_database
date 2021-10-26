@@ -1,0 +1,5 @@
+1634928113644:import pandas as pd
+1634928198406:reticulate::repl_python()
+1634928200329:import pandas as pd
+1634928243243:df_hipotecas = pd.read_csv('~/data/hipotecas/hipotecas_lectura')
+1634928258655:df_hipotecas.head()
